@@ -1,0 +1,83 @@
+{
+    "banco": {
+        "nome": "Cubos Bank",
+        "numero": "123",
+        "agencia": "0001",
+        "senha": "Cubos123Bank"
+    },
+    "contas": [
+        {
+            "usuario": {
+                "nome": "Foo Bar 3",
+                "cpf": "99911122234",
+                "data_nascimento": "2021-03-15",
+                "telefone": "71999998888",
+                "email": "foo@bar3.com",
+                "senha": "12345"
+            },
+            "numero": "0001",
+            "saldo": 2300
+        },
+        {
+            "usuario": {
+                "nome": "Daniel Luiz",
+                "cpf": "15394371750",
+                "data_nascimento": "1993-03-15",
+                "telefone": "21969493090",
+                "email": "dlzin@icloud.com",
+                "senha": "123456"
+            },
+            "numero": "0002",
+            "saldo": 1000
+        }
+    ],
+    "saques": [
+        {
+            "dataSaque": "11/03/2024 17:29:10",
+            "numero_conta": "0001",
+            "valor": 500
+        },
+        {
+            "dataSaque": "12/03/2024 20:02:11",
+            "numero_conta": "0001",
+            "valor": 100
+        }
+    ],
+    "depositos": [
+        {
+            "data": "11/03/2024 17:28:42",
+            "numero_conta": "0001",
+            "valor": 1900
+        },
+        {
+            "data": "11/03/2024 17:28:54",
+            "numero_conta": "0002",
+            "valor": 1900
+        },
+        {
+            "data": "12/03/2024 20:02:00",
+            "numero_conta": "0002",
+            "valor": 100
+        }
+    ],
+    "transferencias": [
+        {
+            "dataTransferencia": "11/03/2024 17:29:23",
+            "numero_conta_origem": "0001",
+            "numero_conta_destino": "0002",
+            "valor": 1000
+        },
+        {
+            "dataTransferencia": "11/03/2024 17:30:32",
+            "numero_conta_origem": "0002",
+            "numero_conta_destino": "0001",
+            "valor": 1000
+        },
+        {
+            "dataTransferencia": "12/03/2024 20:02:18",
+            "numero_conta_origem": "0002",
+            "numero_conta_destino": "0001",
+            "valor": 1000
+        }
+    ]
+}
